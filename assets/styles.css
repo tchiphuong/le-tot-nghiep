@@ -1,17 +1,22 @@
-img, .carousel-img{
+img,
+.carousel-img {
     object-fit: cover;
 }
 
-.carousel, .carousel-img{
+.carousel,
+.carousel-img {
     height: 40vh;
     overflow: hidden;
 }
 
-.container, .carousel, img{
-    border-radius: .5rem;
+.container,
+.carousel,
+.video,
+img {
+    border-radius: 0.5rem;
 }
 
-.img-item{
+.img-item {
     height: 250px;
     cursor: pointer;
 }
