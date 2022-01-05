@@ -16,7 +16,7 @@ function readTextFile(file, callback)
     rawFile.send(null);
 }
 //usage:
-readTextFile("../../database/list-image.json", function(text){
+readTextFile("../database/list-image.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
     $('.carousel-inner').empty();
