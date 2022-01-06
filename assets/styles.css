@@ -20,3 +20,10 @@ img {
     height: 250px;
     cursor: pointer;
 }
+
+img {
+    background-image: url("https://static.wikia.nocookie.net/official-furby/images/e/ed/80FAD579-69DB-4057-AC22-AED3AB66BDDD.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, .05);
+}
